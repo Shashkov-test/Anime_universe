@@ -1,0 +1,47 @@
+.searchMenu {
+  position: fixed;
+  display: flex;
+  background: #2f3444;
+  margin-left: 140px;
+  padding: 20px;
+  width: 100%;
+  z-index: 40;
+  top: 80px;
+
+  p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 205px;
+    color: rgba(140, 139, 139, 0.7);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  &__filters {
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.7);
+
+    label {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    svg {
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  .MuiAutocomplete-root {
+    span {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    svg {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    div {
+      background: rgb(40, 44, 57);
+    }
+  }
+}
